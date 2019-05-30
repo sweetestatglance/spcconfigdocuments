@@ -1,0 +1,23 @@
+
+server:
+  port: 8095
+
+spring:
+  application:
+    name: consumer-service
+
+ #zk
+#  cloud:
+#    zookeeper:
+#      connect-string: localhost:2181
+#      discovery:
+#        instance-host: localhost
+#        instance-port: ${server.port}
+
+#eureka配置
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8076/eureka/
