@@ -14,8 +14,8 @@ spring:
   resources: # 指定静态资源的路径
       static-locations: classpath:/static/,classpath:/templates/,file:${web.image-path}
   #给服务取名字以便在eureka服务注册list中查看
-  application:
-    name: provider-service
+  #application:
+    #name: provider-service
 
  #zk
  # cloud:
@@ -26,12 +26,12 @@ spring:
   #      instance-port: ${server.port}
 
 #eureka配置
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    service-url:
-      defaultZone: http://localhost:8076/eureka/
+#eureka:
+#  instance:
+#    hostname: localhost
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8076/eureka/
 
 
 
