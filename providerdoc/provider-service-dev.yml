@@ -3,8 +3,9 @@
 logging.level.org.springframework : WARN
 logging.level.com.cnct.mapper : DEBUG
 logging.file : logs/spring-boot-logging.log
-env:
-  test update doc
+env: update now
+
+
 #服务器上的的上传文件存放地址
 web:
   #image-path: G:/CompanyWebsite/showimgs
